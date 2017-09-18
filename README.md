@@ -1,6 +1,9 @@
 # SQLiPlus
 php 自带mysql连接库 mysqli的扩展，新增几个实用功能。
 
+本项目已停止维护，请使用PDO版本[FPPDO](https://github.com/flyrainning/FPPDO)代替。
+PHP7以上无法使用此版本，请使用PDO版本[FPPDO](https://github.com/flyrainning/FPPDO)
+
 ## 配置
 ```php
 //设置全局变$_MYSQL_DB，存放数据库连接信息。若不设置$_MYSQL_DB，则必须在实例化的时候将$_MYSQL_DB的数组结构作为参数
